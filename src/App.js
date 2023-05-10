@@ -95,6 +95,7 @@ export default function RemovableSortDemo() {
       verified: { value: null, matchMode: FilterMatchMode.EQUALS },
     });
     setGlobalFilterValue("");
+    initFilters();
   };
 
   const clearFilter = () => {
